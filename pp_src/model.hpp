@@ -1,5 +1,6 @@
-#include <torch>
+#include <torch/torch.h>
 
-class ModelParameters {
+class Model : public torch::nn::Module {
+    Model()
 };
-class Model : public torch::nn::Module {} Model;
+
