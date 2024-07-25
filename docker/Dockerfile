@@ -51,8 +51,5 @@ RUN chmod +x download_dep.sh
 # 复制项目文件
 COPY . /workspace
 
-# 复制自定义的bashrc
-COPY .bashrc /root/.bashrc
-
 # 默认命令
 CMD ["bash"]
